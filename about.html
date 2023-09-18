@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body{
+            background-image:url(background.jpg) ;
+        }
+        h1{
+            background-color: blueviolet;
+            width: fit-content;
+            border-radius: 10px;
+            border-style: solid;
+        }
+        #myself-pic{
+            float: left;
+            width: 192px;
+            margin-right: 8px;
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+            border-style: solid;
+        }
+        #piano-pic{
+            float: left;
+            width: 200px;
+            border-radius: 30px;
+            border-style:double;
+        }
+        #rockclimb-pic{
+            float: left;
+            width:100px;
+            height:150px;
+            border-radius: 30px;
+            border-style:double;
+        }
+        #food-pic{
+            float: left;
+            width:200px;
+            border-radius: 30px;
+            border-style:double;
+        }
+        #rock-pic{
+            float:right;
+            width:200px;
+            border-radius: 30px;
+            border-style:double;
+        }
+        div.aboutbio{
+            background-color: aliceblue;
+            width:800px;
+            height: fit-content;
+            margin-bottom: 10px;
+            border-radius: 30px;
+            border-style: solid;
+        }
+        div.pics{
+            width: 800px;
+            height: fit-content;
+            background-color: rgba(45, 5, 104, 0.922);
+            border-radius: 30px;
+            float: center;
+            border-style: solid;
+        }
+        #banner-pic{
+            border-radius: 30px;
+            border-style: solid;
+            border-color: blue;
+        }
+        #nav-buttons{
+            border-radius: 10px;
+            border-style: solid;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="mybanner.png" id="banner-pic">
+    <table width="800px">
+        <tr>
+            <td align="left">
+                <a href="index.html"><img id="nav-buttons" src="home2.png"></a>
+            </td>
+            <td align="center">
+                <a href="javascripts.html"><img id="nav-buttons" src="javascripts2.png"></a>
+            </td>
+            <td align="right">
+                <a href="about.html"><img id="nav-buttons"  src="aboutme2.png"></a>
+            </td>
+        </tr>
+    </table>
+    <h1>About Me</h1>
+    <img id="myself-pic" src="myself.jpg">
+    <div class="aboutbio">
+        My name is Lisa. I am a student at the University of Rhode Island, majoring in piano performance.
+        I am currently studying piano with Yevegenit Perebeyev and Manabu Takasawa.
+        I am taking CSC 106 for fun. <br></br>
+
+        I love rock climbing with my boyfriend Alexei in my free time. 
+        I also love to eat and trying different restaurant when my bank is full. 
+        We also love traveling together.
+        We most recently went to Seattle to visit our friend Jordan.
+        We found some rocks wall to climb in a park. 
+        It was very different than climbing in a a climbing gym.
+    </div>
+<div class="pics">
+    <table align="center">
+        <tr>
+            <td align="center">
+                <img id="food-pic" src="food.jpg">
+        </td>  
+            <td align="center">
+                <img id="piano-pic" src="piano.jpg">
+        </td>  
+            <td align="center">
+                <img id="rockclimb-pic" src="rockclimb.jpg">
+        </td>  
+            <td align="center">
+                <img id="rock-pic" src="rock.jpg">
+        </td>  
+        </tr>
+    </table>
+</div>
+</body>
+</html>
